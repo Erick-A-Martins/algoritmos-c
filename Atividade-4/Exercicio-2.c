@@ -6,16 +6,16 @@ int main () {
 
     int A, B, C, D;
 
-    printf ("Insira o primeiro valor: ");
+    printf ("\nInsira o primeiro valor: ");
     scanf ("%d", &A);
 
-    printf ("Insira o segundo valor: ");
+    printf ("\nInsira o segundo valor: ");
     scanf ("%d", &B);
 
-    printf ("Insira o terceiro valor: ");
+    printf ("\nInsira o terceiro valor: ");
     scanf ("%d", &C);
 
-    printf ("Insira o quarto valor: ");
+    printf ("\nInsira o quarto valor: ");
     scanf ("%d", &D);
 
 
@@ -25,18 +25,18 @@ int main () {
         
         printf ("\nO maior numero e o primeiro = %d", A);
         
-        if ((B < A) && (B < C) && (B < D)) {
+        if ((B < C) && (B < D)) {
 
             printf ("\nO menor numero e o segundo = %d", B); 
 
         }
 
-        if ((C < A) && (C < B) && (C < D)) {
+        if ((C < B) && (C < D)) {
             printf ("\nO menor numero e o terceiro = %d", C);
             
         }
 
-        if ((D < A) && (D < B) && (D < C)) {
+        if ((D < B) && (D < C)) {
             printf ("\nO menor numero e o quarto = %d", D);
 
         }
@@ -45,18 +45,18 @@ int main () {
         
         printf ("O maior numero e o segundo = %d", B);
 
-        if ((A < B) && (A < C) && (A < D)) {
+        if ((A < C) && (A < D)) {
 
             printf ("\nO menor numero e o primeiro = %d", A); 
 
         }
 
-        if ((C < A) && (C < B) && (C < D)) {
+        if ((C < A) && (C < D)) {
             printf ("\nO menor numero e o terceiro = %d", C);
             
         }
 
-        if ((D < A) && (D < B) && (D < C)) {
+        if ((D < A) && (D < C)) {
             printf ("\nO menor numero e quarto = %d", D);
 
         }
@@ -65,18 +65,18 @@ int main () {
         
         printf ("O maior numero e o terceiro = %d", C);
 
-        if ((A < B) && (A < C) && (A < D)) {
+        if ((A < B) && (A < D)) {
 
             printf ("\nO menor numero e o primeiro = %d", A); 
 
         }
 
-        if ((C < A) && (C < B) && (C < D)) {
+        if ((B < A) && (B < D)) {
             printf ("\nO menor numero e o segundo = %d", B);
             
         }
 
-        if ((D < A) && (D < B) && (D < C)) {
+        if ((D < A) && (D < B)) {
             printf ("\nO menor numero e quarto = %d", D);
 
         }
@@ -85,18 +85,17 @@ int main () {
         
         printf ("O maior numero e o quarto = %d", D);
 
-        if ((A < B) && (A < C) && (A < D)) {
-
+        if ((A < B) && (A < C)) {
             printf ("\nO menor numero e o primeiro = %d", A); 
 
         }
 
-        if ((C < A) && (C < B) && (C < D)) {
+        if ((B < A) && (B < C)) {
             printf ("\nO menor numero e o segundo = %d", B);
             
         }
 
-        if ((D < A) && (D < B) && (D < C)) {
+        if ((C < A) && (C < B)) {
             printf ("\nO menor numero e terceiro = %d", C);
 
         }
@@ -105,12 +104,3 @@ int main () {
 
     return 0;
 }
-
-/* 
- else if pra corrigir estruturas e 
-
-
-
-
-
-*/
